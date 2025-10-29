@@ -13,43 +13,36 @@ Each conversation keeps a short memory, so SpongeBob remembers recent messages d
 ### 📦 Install Dependencies
 ```bash
 pip install requests python-dotenv
-⚙️ Environment Configuration
+```
+### ⚙️ Environment Configuration
 You must create an environment file to store your API credentials.
 
-Create ~/.soonerai.env in your user's home directory.
+Create ~/.soonerai.env in your project directory.
 
-Linux / macOS
-
-Bash
-
-nano ~/.soonerai.env
-Windows (PowerShell)
-
-PowerShell
-
-notepad $env:USERPROFILE\.soonerai.env
-Add the following lines to the file:
-
-Ini, TOML
-
+### ⚙️ Paste this into your .env file (insert your api key)
+```bash
 SOONERAI_API_KEY=your_api_key_here
 SOONERAI_BASE_URL=[https://ai.sooners.us](https://ai.sooners.us)
 SOONERAI_MODEL=gemma3:4b
-⚠️ Important: Do not share or commit the ~/.soonerai.env file. It contains your private API key.
 ```
+⚠️ Important: Do not share or commit the ~/.soonerai.env file. It contains your private API key.
+
 
 ## ▶️ Running the Chatbot
 Run the script from your terminal:
 
 Bash
-
+```bash
 python spongebob_cli.py
+```
+
 You’ll see:
 
 Chat with SpongeBob! (type 'exit' to quit)
 Then start chatting!
 
 💬 Example Transcript
+```bash
 Chat with SpongeBob! (type 'exit' to quit)
 
 You: Can you NOT talk like spongebob?
@@ -77,6 +70,7 @@ You: that's very deep, not very spongebob-y of you
 SpongeBob: (A very quick, embarrassed giggle) Oh, barnacles! You’re right! You’re absolutely right! I got carried away! It’s… it’s like a bubble that popped! Sorry! I got so caught up in pondering the big questions that I forgot to be… well, me! Let’s get back to the fun stuff! Okay, okay, let’s do this! So, what do you say? Wanna talk about jellyfishing? Or maybe we can build a sandcastle that’s bigger than a bus?! (A huge, enthusiastic grin) 😄
 
 You: exit
+```
 
 ## 📂 Project Structure
 spongebob_cli.py
