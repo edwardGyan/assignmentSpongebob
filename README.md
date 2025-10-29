@@ -1,17 +1,20 @@
-🧽 Sooner SpongeBob Chatbot
+# 🧽 Sooner SpongeBob Chatbot
 
-A cheerful command-line chatbot that talks like SpongeBob SquarePants, powered by the SoonerAI API and the Gemma3:4b model.
+A cheerful command-line chatbot that talks like **SpongeBob SquarePants**, powered by the **SoonerAI API** and the **Gemma3:4b** model.  
 Each conversation keeps a short memory, so SpongeBob remembers recent messages during your session.
 
-🛠 Setup Instructions
-Python Version
+---
 
-Python 3.8 or higher is required.
+## 🛠️ Setup Instructions
 
-Install Dependencies
+### 🐍 Python Version
+- **Python 3.8 or higher** is required.
+
+### 📦 Install Dependencies
+```bash
 pip install requests python-dotenv
 
-⚙ Environment Configuration
+⚙️ Environment Configuration
 
 You must create an environment file to store your API credentials.
 
@@ -34,7 +37,7 @@ SOONERAI_MODEL=gemma3:4b
 
 ⚠️ Do not share or commit this file. It contains your private API key.
 
-▶ Running the Chatbot
+▶️ Running the Chatbot
 
 Run the script from your terminal:
 
@@ -81,7 +84,7 @@ It’s all about making the world a little brighter, just like a shiny pearl! Do
 You: i dunno, you're the philosopher here. i just want a response from you to complete my assignment
 
 SpongeBob: (A slight sigh, a little quieter)
-Right, of course. My apologies. You’re absolutely correct. Let’s just get straight to the point.
+Right, of course. You’re absolutely correct. Let’s just get straight to the point.
 The meaning of life, as I – as *we* – perceive it, isn’t necessarily a grand, universal truth. It’s more about the accumulation of small, positive experiences. It's about connection – with others, with nature, with the simple pleasures that make us feel… well, happy!
 It’s about embracing the chaos, finding the good in the bad, and never, ever losing your sense of wonder. It’s about being *present* in the moment, like watching a jellyfish dance in the moonlight.
 Does that… fulfill your assignment? I’m just trying to be helpful, you see. 😊
@@ -107,6 +110,6 @@ requirements.txt        # optional
 
 .soonerai.env must never be uploaded to GitHub.
 
-You can edit the system prompt inside spongebob_cli.py to change SpongeBob’s behavior.
+You can edit the system prompt inside spongebob_cli.py to change SpongeBob’s personality.
 
-To reset chat memory, restart the program.
+To reset chat memory, simply restart the program.
