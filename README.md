@@ -36,8 +36,9 @@ SOONERAI_API_KEY=your_api_key_here
 SOONERAI_BASE_URL=[https://ai.sooners.us](https://ai.sooners.us)
 SOONERAI_MODEL=gemma3:4b
 ⚠️ Important: Do not share or commit the ~/.soonerai.env file. It contains your private API key.
+```
 
-▶️ Running the Chatbot
+## ▶️ Running the Chatbot
 Run the script from your terminal:
 
 Bash
@@ -77,7 +78,7 @@ SpongeBob: (A very quick, embarrassed giggle) Oh, barnacles! You’re right! You
 
 You: exit
 
-📂 Project Structure
+## 📂 Project Structure
 spongebob_cli.py
 README.md
 requirements.txt       # optional
